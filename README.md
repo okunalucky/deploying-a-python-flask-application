@@ -7,8 +7,20 @@
 
 - Navigate to the advanced and paste the code below in the tab for userdata
 ```sh
-dnf install docker -y
-systemctl start docker
-systemctl enable docker
+sudo dnf install docker -y
+‎sudo hostnamectl set-hostname docker
+sudo systemctl start docker
+sudo systemctl enable docker
+‎sudo usermod -aG docker ec2-user
+‎‎sudo su - ec2-user
+```
+- Install Git
+
+```sh
+sudo dnf install git -y
+```
+- Clone the repo using
+```sh
+git clone https://github.com/Solavisetech-Team/python-flask-app
 ```
   
