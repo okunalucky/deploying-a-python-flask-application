@@ -23,4 +23,32 @@ sudo dnf install git -y
 ```sh
 git clone https://github.com/Solavisetech-Team/python-flask-app
 ```
-  
+<img width="645" height="245" alt="Image" src="https://github.com/user-attachments/assets/bf10b702-a353-4cb6-82f5-ba979ef0a705" />
+
+
+- Run the following codes
+```sh
+ls
+cd python-flask-app/
+ls
+docker build -t app.py .
+docker images
+```
+
+
+<img width="1301" height="518" alt="Image" src="https://github.com/user-attachments/assets/057ee1ab-1a22-4f83-be88-1257dd84fd99" />
+
+
+- To deploy the application, run the command below
+```sh
+docker run --name app.py -d -p 8080:5000 app.py
+```
+
+<img width="1140" height="166" alt="Image" src="https://github.com/user-attachments/assets/34761b4d-0ae6-4bed-a71f-dfac725ce739" />
+
+-To view the application, navigate to your browser and run the public ip address:8080
+```sh
+<img width="548" height="139" alt="Image" src="https://github.com/user-attachments/assets/f31efbf6-7326-4901-92b6-1a5a818244d8" />
+```
+
+
