@@ -47,8 +47,8 @@ docker run --name app.py -d -p 8080:5000 app.py
 <img width="1140" height="166" alt="Image" src="https://github.com/user-attachments/assets/34761b4d-0ae6-4bed-a71f-dfac725ce739" />
 
 -To view the application, navigate to your browser and run the public ip address:8080
-```sh
+
 <img width="548" height="139" alt="Image" src="https://github.com/user-attachments/assets/f31efbf6-7326-4901-92b6-1a5a818244d8" />
-```
+
 
 
